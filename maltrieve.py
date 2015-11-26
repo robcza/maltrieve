@@ -466,8 +466,7 @@ def main():
     print "Processing source URLs"
 
     # TODO: Replace with plugins
-    source_urls = {'https://zeustracker.abuse.ch/monitor.php?urlfeed=binaries': process_xml_list_desc,
-                   'http://www.malwaredomainlist.com/hostslist/mdl.xml': process_xml_list_desc,
+    source_urls = {'http://www.malwaredomainlist.com/hostslist/mdl.xml': process_xml_list_desc,
                    'http://malc0de.com/rss/': process_xml_list_desc,
                    'http://vxvault.net/URL_List.php': process_simple_list,
                    'http://urlquery.net/': process_urlquery,
